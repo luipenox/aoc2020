@@ -31,6 +31,6 @@ def part_2(values):
 
     return count
 
-values = get_values_from_file('input')
+values = get_values_from_file('input.txt')
 print(f'part 1: {part_1(values)}')
 print(f'part 2: {part_2(values)}')
